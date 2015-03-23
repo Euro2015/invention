@@ -1,0 +1,34 @@
+ffmpeg version 2.1.1 Copyright (c) 2000-2013 the FFmpeg developers
+  built on Dec 20 2014 10:34:55 with gcc 4.7 (Debian 4.7.2-5)
+  configuration: --enable-gpl --enable-nonfree --enable-postproc --enable-pthreads --enable-x11grab --enable-swscale --enable-version3 --enable-shared --disable-yasm --enable-filter=movie --enable-frei0r --enable-libdc1394 --enable-libfaac --enable-libmp3lame --enable-libx264 --enable-libxvid --enable-libfreetype --enable-libvorbis --enable-libgsm --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librtmp --enable-libschroedinger --enable-libspeex --enable-libtheora --enable-libvpx --enable-libvo-amrwbenc --enable-libvo-aacenc --enable-libaacplus --enable-libxavs --enable-bzlib --enable-openssl --enable-gnutls --enable-openal --enable-libv4l2 --enable-libpulse --enable-libmodplug --enable-libass --enable-libcdio --enable-vdpau --enable-libbluray
+  libavutil      52. 48.101 / 52. 48.101
+  libavcodec     55. 39.101 / 55. 39.101
+  libavformat    55. 19.104 / 55. 19.104
+  libavdevice    55.  5.100 / 55.  5.100
+  libavfilter     3. 90.100 /  3. 90.100
+  libswscale      2.  5.101 /  2.  5.101
+  libswresample   0. 17.104 /  0. 17.104
+  libpostproc    52.  3.100 / 52.  3.100
+[mp3 @ 0x6c9520] Header missing
+Input #0, avi, from '/var/www/business-supermarket.co.uk/web/www/temp/0583121001426845487.avi':
+  Metadata:
+    encoder         : VirtualDubMod 1.5.10.2 (build 2542/release)
+  Duration: 00:01:02.94, start: 0.000000, bitrate: 1455 kb/s
+    Stream #0:0: Video: mpeg4 (Advanced Simple Profile) (XVID / 0x44495658), yuv420p, 720x304 [SAR 1:1 DAR 45:19], 23.98 tbr, 23.98 tbn, 23.98 tbc
+    Stream #0:1: Audio: mp3 (U[0][0][0] / 0x0055), 48000 Hz, stereo, s16p, 128 kb/s
+Please use -b:a or -b:v, -b is ambiguous
+Output #0, flv, to '/var/www/business-supermarket.co.uk/web/www/upload/users/jag_1/videos/0583121001426845487.flv':
+  Metadata:
+    encoder         : Lavf55.19.104
+    Stream #0:0: Video: flv1 (flv) ([2][0][0][0] / 0x0002), yuv420p, 512x384 [SAR 135:76 DAR 45:19], q=2-31, 1000 kb/s, 1k tbn, 30 tbc
+    Stream #0:1: Audio: mp3 (libmp3lame) ([2][0][0][0] / 0x0002), 44100 Hz, stereo, s16p, 128 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (mpeg4 -> flv)
+  Stream #0:1 -> #0:1 (mp3 -> libmp3lame)
+Press [q] to stop, [?] for help
+[mp3 @ 0x6c9520] Header missing
+Error while decoding stream #0:1: Invalid data found when processing input
+frame=   49 fps=0.0 q=8.5 size=     389kB time=00:00:02.60 bitrate=1221.9kbits/s    frame=  118 fps=118 q=6.6 size=     747kB time=00:00:05.45 bitrate=1121.5kbits/s    frame=  178 fps=118 q=5.8 size=    1085kB time=00:00:07.98 bitrate=1112.9kbits/s    frame=  250 fps=125 q=9.2 size=    1544kB time=00:00:10.99 bitrate=1151.0kbits/s    frame=  322 fps=128 q=11.3 size=    1949kB time=00:00:13.99 bitrate=1140.8kbits/s    frame=  395 fps=131 q=9.7 size=    2357kB time=00:00:17.02 bitrate=1133.9kbits/s    frame=  464 fps=132 q=19.1 size=    2813kB time=00:00:19.92 bitrate=1156.4kbits/s    frame=  537 fps=134 q=6.9 size=    3167kB time=00:00:22.95 bitrate=1130.2kbits/s    frame=  602 fps=133 q=5.8 size=    3461kB time=00:00:25.64 bitrate=1105.5kbits/s    frame=  675 fps=135 q=3.0 size=    3788kB time=00:00:28.67 bitrate=1082.0kbits/s    frame=  749 fps=136 q=3.5 size=    4212kB time=00:00:31.81 bitrate=1084.6kbits/s    frame=  816 fps=136 q=3.2 size=    4541kB time=00:00:34.58 bitrate=1075.8kbits/s    frame=  886 fps=136 q=5.5 size=    4964kB time=00:00:37.50 bitrate=1084.2kbits/s    frame=  959 fps=137 q=2.6 size=    5352kB time=00:00:40.56 bitrate=1080.8kbits/s    frame= 1031 fps=137 q=3.5 size=    5782kB time=00:00:43.54 bitrate=1087.9kbits/s    frame= 1102 fps=137 q=3.1 size=    6250kB time=00:00:46.51 bitrate=1100.6kbits/s    frame= 1177 fps=138 q=2.4 size=    6654kB time=00:00:49.62 bitrate=1098.4kbits/s    frame= 1253 fps=139 q=5.7 size=    7160kB time=00:00:52.81 bitrate=1110.6kbits/s    frame= 1328 fps=139 q=6.6 size=    7627kB time=00:00:55.92 bitrate=1117.3kbits/s    frame= 1402 fps=140 q=8.8 size=    8160kB time=00:00:59.03 bitrate=1132.3kbits/s    frame= 1473 fps=140 q=3.1 size=    8530kB time=00:01:01.98 bitrate=1127.4kbits/s    [mp3 @ 0x6c9520] incomplete frame
+Error while decoding stream #0:1: Invalid data found when processing input
+frame= 1509 fps=140 q=3.9 Lsize=    8688kB time=00:01:02.96 bitrate=1130.3kbits/s    
+video:7643kB audio:983kB subtitle:0 global headers:0kB muxing overhead 0.713336%
